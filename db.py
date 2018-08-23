@@ -3,14 +3,14 @@
 # Date:2018/8/23 15:25
 import pymongo
 
-from selenium_qidian.config import *
+from config import *
 
 
 class UseMongo(object):
     """调用MongoDB数据库"""
     def __init__(self):
-        client = pymongo.MongoClient(MONGO_URI)
-        self.db = client[MONGO_DB]
+        self.client = pymongo.MongoClient(MONGO_URI)
+        self.db = self.client[MONGO_DB]
         self.table = self.db[MONGO_TABLE]
 
     def save_to_mongo(self, book):
@@ -26,6 +26,7 @@ class UseMongo(object):
         existed_url_list = set()
         for x in neir.find({}, {"_id": 0, "number": 1}):
             existed_url_list.add(x['number'])
+        self.client.close()
         return existed_url_list
 
     def check_field(self, fieldname):
@@ -38,6 +39,7 @@ class UseMongo(object):
         else:
             num_list = [num['number'] for num in self.table.find({fieldname: {'$exists': True}})]
         # 查询不包含的数据
+        self.client.close()
         return num_list
 
 

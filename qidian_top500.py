@@ -14,9 +14,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pyquery import PyQuery
 
-
-from selenium_qidian.config import *
-from selenium_qidian.db import UseMongo
+from config import *
+from db import UseMongo
 
 cap = DesiredCapabilities.PHANTOMJS.copy()  # copy防止修改源码
 
