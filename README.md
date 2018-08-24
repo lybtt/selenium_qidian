@@ -12,6 +12,6 @@
 
 ![书籍最多的10个作者](https://github.com/lybtt/selenium_qidian/blob/master/img/author.png)
 
-![热门标签](https://github.com/lybtt/selenium_qidian/blob/master/img/author.png)
+![热门标签](https://github.com/lybtt/selenium_qidian/blob/master/img/tags.png)
 
-![评分前50的书籍加评价人数及排名](https://github.com/lybtt/selenium_qidian/blob/master/img/author.png)
+![评分前50的书籍加评价人数及排名](https://github.com/lybtt/selenium_qidian/blob/master/img/top50.png)
