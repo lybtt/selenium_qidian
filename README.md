@@ -10,8 +10,8 @@
 
 ### 数据分析结果
 
-![书籍最多的10个作者](https://github.com/lytbb/selenium_qidian/blob/master/img/author.png)
+![书籍最多的10个作者](https://github.com/lytbb/selenium_qidian/blob/master/selenium_qidian/img/author.png)
 
-![热门标签](https://github.com/lytbb/selenium_qidian/blob/master/img/author.png)
+![热门标签](https://github.com/lytbb/selenium_qidian/blob/master/selenium_qidian/img/author.png)
 
-![评分前50的书籍加评价人数及排名](https://github.com/lytbb/selenium_qidian/blob/master/img/author.png)
+![评分前50的书籍加评价人数及排名](https://github.com/lytbb/selenium_qidian/blob/master/selenium_qidian/img/author.png)
